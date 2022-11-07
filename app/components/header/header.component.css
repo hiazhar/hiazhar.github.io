@@ -1,0 +1,72 @@
+.container{
+    display:inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+}
+.foryou :hover{
+    color: #b2e3ea;
+    cursor: pointer;
+    transform: translateY(-1px);
+    transform: translateX(-1px);
+}
+
+.foryou{
+    border-width: 0ch;
+    background: none;
+    margin-left: 20px;
+    padding-left: 20 px;
+    align-self: flex-end;
+    color: #ffffff;
+}
+.message{    
+    width: 100%;
+    border: 3px solid #ffffff;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+}
+
+
+.searchbutton{
+    width:fit-content;
+  height: 36px;
+  border: 1px solid #ffffff;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.searchbutton :hover{
+    transform: translateY(-1px);
+    transform: translateX(-1px);
+}
+.msg{
+    width: 60%;
+    max-width: 700px;
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+.name{
+    padding-right: 20px;
+}
+
+.about a{
+    color: #fff;
+    text-decoration:none;
+}
+.about  :hover{
+    color: #b2e3ea;
+    transform: translateY(-1px);
+    transform: translateX(-1px);
+    cursor: pointer;
+    
+}

@@ -1,0 +1,31 @@
+.dp img{
+    width: 200px;
+    border-radius: 50%;
+}
+.container{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height:650px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.name{
+    font-size: x-large;
+    font-weight: 200;
+}
+.card{
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.088);
+}
+
+.content{
+    text-align: left;
+}
+
+.contact{
+    text-align: end;
+    color: blue;
+}

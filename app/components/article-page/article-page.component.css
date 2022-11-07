@@ -1,0 +1,51 @@
+.container{
+    color: black;
+    min-height: 650px;
+    max-height: max-content;
+    display: block;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.main-image{
+    
+    grid-column: 1 / 4;
+    width: 100%;
+    max-width: 100ch;
+    justify-self: center;
+}
+.content{
+    
+    border-radius: 10px;
+    border-color: black;
+    max-width: 700px;
+    height: max-content;
+    border-width: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    height: max-content;
+    padding: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.subs{
+    color: grey;
+    font-size: small;
+    text-align: left;
+}
+.desc{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(27, 27, 27);
+    font-size: large;
+}
+

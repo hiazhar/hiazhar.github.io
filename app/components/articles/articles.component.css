@@ -1,0 +1,38 @@
+.container{
+    display: flex ;
+    flex-wrap: wrap;
+    height:max-content;
+    justify-content: center;
+}
+
+.subt{
+    color:gray;
+}
+.example-card {
+  
+    min-width: 200px;
+    max-width: 250px;
+    height:max-content;
+    margin: 20px;
+    background-color: rgb(209, 234, 233);
+    color: black;
+  }
+  
+.imgclass{
+    padding: 15px;
+    width: 100%;
+}
+
+  body{
+   background-color: white;
+    max-height: max-content;
+  }
+
+.label{
+  margin-left: 100px;
+  margin-top:20px;
+  background: rgba(128, 128, 128, 0.47);
+  height:fit-content;
+  width: fit-content;
+  padding: 10px;
+}

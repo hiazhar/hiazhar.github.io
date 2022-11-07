@@ -1,0 +1,25 @@
+.container{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.right{
+    
+    background: whitesmoke;
+    color:grey;
+    width:55%;
+    text-align: center;
+    min-height: 650px;
+}
+.left{
+    width:30%;
+    color: white;
+    padding-right: 50px;
+}
+
+.body{
+    width: 100%;
+    height:max-content;
+    min-height: 650px;
+}

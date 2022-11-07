@@ -1,0 +1,13 @@
+<div class="container">
+<a mat-list-item [mat-menu-trigger-for]="article">Articles</a>
+<a mat-list-item [routerLink]="'/services'">Services</a>
+<a mat-list-item [routerLink]="'/about'">About</a>
+<a mat-list-item [routerLink]="'/contact'">Contact</a>
+
+<mat-menu #article="matMenu" xPosition="before" yPosition="below">
+    <button mat-menu-item [routerLink]="'/articles/tech'">Technology</button>
+    <button mat-menu-item [routerLink]="'/articles/trending'">Trending Today</button>
+    <button mat-menu-item [routerLink]="'/articles/ent'">Entertainment</button>
+    <button mat-menu-item [routerLink]="'/articles/biz'">Biz Highlights</button>
+</mat-menu>
+</div>

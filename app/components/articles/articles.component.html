@@ -1,0 +1,24 @@
+<div class="body">
+
+<div class="label">{{category}}</div>
+<div class="container">
+  
+<mat-card class="example-card" *ngFor=" let article of articlelist ,let i= index" [routerLink]="['/article/' + (101+i)]"> 
+  <mat-card-header>
+    
+    <mat-card-title>{{article.Title}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src={{article.imgurl}} width="100%" class="imgclass">
+  <mat-card-subtitle class="subt">Photo Credits: {{article.src}}</mat-card-subtitle>
+  <mat-card-content>
+    <p>
+      {{article.desc}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+</div>
+</div>
